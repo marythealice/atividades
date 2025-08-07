@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    background-color: rgb(236, 245, 228);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+    padding: 20px;
+    background-color: rgb(187, 189, 184);
+    border-radius: .5rem;
+}
+
+.logo:hover {
+    letter-spacing: 5px;
+    transition: .8s;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 10px;
+}
+
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
+
+li a:hover {
+    letter-spacing: 5px;
+    transition: .8s;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100vw;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: auto;
+
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    max-width: 70%;
+    height: 100%;
+
+}
+
+img {
+    min-width: none;
+    width: 90%;
+    height: 90%;
+    border-radius: .5rem;
+}
+
+figcaption {
+    opacity: 0.7;
+    font-style: italic;
+    height: 10%;
+}
+
+footer {
+    background-color: rgb(187, 189, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100vw;
+}
