@@ -6,7 +6,7 @@ texto.addEventListener('mouseover', () => {
     texto.classList.add('estiloNovo')
 })
 
-texto.addEventListener('mouseout', () => {
+texto.addEventListener('mouseleave', () => {
     texto.classList.remove('estiloNovo')
 })
 

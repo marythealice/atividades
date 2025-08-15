@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catálogo Virtual</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+            <h1>&#9734 Miss Star &#9734</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Produtos</a>
+                <a href="#">Lojas</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="acoes">
+            <button id="btn-desconto">Aplicar 10% de Desconto</button>
+            <button id="btn-filtrar">Mostrar Apenas Disponíveis</button>
+            <button id="btn-mostrar-todos">Mostrar Todos</button>
+        </section>
+
+        <section id="product-grid" class="product-grid"></section>
+    </main>
+
+    <footer>
+        <p>Valor total dos itens em estoque: <strong id="valor-total-estoque"></strong></p>
+        <div id="log-loops"></div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
