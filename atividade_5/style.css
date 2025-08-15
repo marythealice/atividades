@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(167, 200, 175);
+    gap: 15px;
+}
+
+.mudarBackground {
+    background-color: white;
+    text-align: center;
+    width: 100vw;
+    height: 20vh;
+    padding: 5;
+}
+
+.estiloNovo {
+    background-color: lightblue;
+}
+
+#textoEscondido {
+    padding: 5%;
+}
+
+.modal {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    border: 2px solid black;
+    height: 20%;
+    width: 50vw;
+}
+
+#oculto {
+    visibility: hidden;
+}
